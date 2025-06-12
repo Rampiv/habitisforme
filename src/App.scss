@@ -1,3 +1,5 @@
+@use './styles/style.scss' as *;
+
 /* Global selectors */
 html {
   box-sizing: border-box;
@@ -53,4 +55,8 @@ body {
 }
 .opacity {
   opacity: 1;
+}
+
+.App{
+  @include flexible();
 }

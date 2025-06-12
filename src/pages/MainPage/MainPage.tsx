@@ -1,6 +1,7 @@
 import { useContext, useMemo } from "react"
 import { AddHabitis, Count } from "../../components"
 import { AppContext } from "../../context/contextProvider"
+import './MainPage.scss'
 
 export const MainPage = () => {
   const { items } = useContext(AppContext)

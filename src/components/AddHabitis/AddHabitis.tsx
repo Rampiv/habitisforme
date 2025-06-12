@@ -41,7 +41,7 @@ const FormComponent = memo(() => {
       form={form}
       name="add-habitis"
       onFinish={onFinish}
-      style={{ maxWidth: 600 }}
+      style={{ maxWidth: 600}}
     >
       <Form.Item
         name="title"
@@ -95,5 +95,5 @@ const items = () => [
 
 export const AddHabitis = () => {
 
-  return <Collapse items={items()} />
+  return <Collapse style={{width: '100%'}} items={items() } />
 }
